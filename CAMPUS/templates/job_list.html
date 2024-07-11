@@ -1,0 +1,9 @@
+{% extends 'index.html' %}
+{% block content %}
+  <h1>Job Listings</h1>
+  <ul>
+    {% for job in jobs %}
+      <li><a href="{% url 'job_detail' job.id %}">{{ job.title }}</a> at {{ job.company.name }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

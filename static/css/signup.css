@@ -1,0 +1,92 @@
+
+
+.signup-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.signup-box h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.signup-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.signup-box input[type="text"],
+.signup-box input[type="email"],
+.signup-box input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(122, 200, 232, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.signup-box input[type="text"]::placeholder,
+.signup-box input[type="email"]::placeholder,
+.signup-box input[type="password"]::placeholder {
+    color: #dddddd;
+}
+
+.signup-box input[type="submit"] {
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    
+}
+
+.signup-box input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.signup-box p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.signup-box a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
+
+.signup-box a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

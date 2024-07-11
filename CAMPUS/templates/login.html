@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+</head>
+<style>
+   body {
+    font-family: Arial, sans-serif;
+    background: url("{% static 'assets/OIP.jpeg' %}") no-repeat center center fixed;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+   
+</style>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <form action="" method="POST">
+            {% csrf_token %}
+            <label for="username">Username</label>
+            <input type="text" id="email" placeholder="Enter your username" name="username">
+            
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter your Password" name="password">
+            
+            <input type="submit" value="Submit">
+        </form>
+    
+        <p class="para-2">Not have an account? <a href="{% url 'signin' %}">Sign up</a></p>
+    </div>
+</body>
+</html>

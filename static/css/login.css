@@ -1,0 +1,90 @@
+
+
+.login-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(122, 200, 232, 0.2);
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.login-box input[type="text"]::placeholder,
+.login-box input[type="password"]::placeholder {
+    color: #dddddd;
+}
+
+.login-box input[type="submit"] {
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-box input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.login-box p {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.login-box a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}
+
+.login-box a:focus {
+    outline: none;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
